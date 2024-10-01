@@ -15,11 +15,17 @@
     {% endblock %}
 
     {% block content %}
-    <ul>
+    <!--<ul>
         {% for game in games %}
         <li>{{ game }} <button class="btn_p"><a action="#" target="_self">{{ pay }}</a></button></li>
         {% endfor %}
+    </ul>-->
+    <ul>
+
+        <li>{{ game }} <button> <h4> Купить </h4> </button> </li>
+
     </ul>
+
 
     <form action="http://127.0.0.1:8000" target="_self">
         <button class="btn">Вернуться назад</button></form>
